@@ -1,5 +1,7 @@
 use_frameworks!
 
+source 'https://github.com/yangguang521/HFTotalPrivateSpec.git'
+
 platform :ios, '10.0'
 
 target 'HFFileManger_Example' do

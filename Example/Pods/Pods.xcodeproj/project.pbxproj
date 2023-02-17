@@ -7,45 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FFFF7D9A1FB1A7C74D98AE22A4C5028 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
-		11200B8678D9658B2B66EE56E11176F6 /* HFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CA4239F96C5DDBEEDBE3AE09011EE2 /* HFFileManager.m */; };
+		0710ED9BAFF58EC79F4E8F36461D61E2 /* HFFileManger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07532A5804AB0088A30BC164D1846265 /* HFFileManger-dummy.m */; };
+		1DBA9AB631C819983A5E298FAD40193A /* HFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00CA4239F96C5DDBEEDBE3AE09011EE2 /* HFFileManager.m */; };
 		22F3A6BB629E257680BF6F99C9635C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		2C272F10A857E004D00F26BD0ECE46B6 /* HFFileManagerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 578588DC158D4E52F78DADF224850851 /* HFFileManagerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		32B8BE37553433139C9BF572137A1572 /* HFFileManger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D9BD1271CA2474D8FAF54951DEAB2B /* HFFileManger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C006088C860B5696783E12241BB01E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		43420D663C8D303C8FE6D83B581350D9 /* HFDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 941C33C066B4C50D1CA2C601DC20B193 /* HFDate.m */; };
 		4844501C4AE644C7FA4CBB77BF1C1DF7 /* Pods-HFFileManger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EC05459DAC3967CEB43F1CCE91866F5 /* Pods-HFFileManger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		64FB0FDD190527CDAAF72E1270C6F345 /* HFFileManger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07532A5804AB0088A30BC164D1846265 /* HFFileManger-dummy.m */; };
-		6CAD1431C76B422783B2AEBCA266A3AD /* Pods-HFFileManger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690DC3CB84D1BDFA400CAF44DFACA0EC /* Pods-HFFileManger_Example-dummy.m */; };
-		6F2F76B29C2C6C64BD1DE0F230F0A8D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
-		A1786A53591F03CA91059BC3BDA5AA0E /* Pods-HFFileManger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E3B79EC43671560221D958E8CE6519 /* Pods-HFFileManger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A375405A970E2C0DC05B84A6105581DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		4CEBF1C53A381473C71BC498F21143B3 /* HFDateManagerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = CAE2D961070D558FBCE143A88F04E17C /* HFDateManagerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578FEC00D5E045704489E17A16770AA1 /* HFDateManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E6CBFB6C9F4AB11D38E7098247F336 /* HFDateManager-dummy.m */; };
+		7680758780D584ACC275D31B14A5FFA3 /* Pods-HFFileManger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E3B79EC43671560221D958E8CE6519 /* Pods-HFFileManger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82904D53C85D51D0D2F345F320FBCDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		8746A825A3B613F673D45FF696F65A19 /* HFDate.h in Headers */ = {isa = PBXBuildFile; fileRef = AF635C66CFD0C7CEA2D92ACCAE89BFDF /* HFDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92D9035C53F3FE2BEAFD37989E17F58E /* Pods-HFFileManger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690DC3CB84D1BDFA400CAF44DFACA0EC /* Pods-HFFileManger_Example-dummy.m */; };
+		B0EBE98EC3B021E9730B37CBC25F3662 /* HFFileManger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2D9BD1271CA2474D8FAF54951DEAB2B /* HFFileManger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B4C068E3326A06F95806FBFEC76428CB /* Pods-HFFileManger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE81DB1D7FDA4B665948C880C788DB2 /* Pods-HFFileManger_Tests-dummy.m */; };
-		EB06D8EE9ED6986233996735B2EA78BF /* HFFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0DF8E4E6953077BC1CCDEBC2168C9D /* HFFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE897D633CB5829FC0F696D64667F79C /* HFFileManagerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 578588DC158D4E52F78DADF224850851 /* HFFileManagerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0E383C6BA7CC5A76D3F3CC78DD9AA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D80F0D0F1A795529C537EA11743D9F4B /* HFDateManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4418D1AAE7A41DFA690C959E101C4EF4 /* HFDateManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A058F1769AC7A3D3448B71A47937B7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		FEB7FA31DE5DDB2F3F6B8C41E6903507 /* HFFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA0DF8E4E6953077BC1CCDEBC2168C9D /* HFFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7CA3FDB02425E942CDF65300FEBEB76F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9F2490D7C334B10C0E903A1DB7C1921C;
-			remoteInfo = "Pods-HFFileManger_Example";
-		};
-		AAF50B4104747A6DEC39367C0A0599D6 /* PBXContainerItemProxy */ = {
+		466542763F2B75B637406BD7D9CB8660 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 36A37711B6DA436B3463C5666C95A1FF;
 			remoteInfo = HFFileManger;
 		};
+		7F2634234D233E8BE607A00F97B46D6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F2490D7C334B10C0E903A1DB7C1921C;
+			remoteInfo = "Pods-HFFileManger_Example";
+		};
+		AE296DBF39E228EDBDE6594D76350F33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C02D9E42D6E760DA97D2DC151112601;
+			remoteInfo = HFDateManager;
+		};
+		C0A273A227E32A5ABB50F82E06E853FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C02D9E42D6E760DA97D2DC151112601;
+			remoteInfo = HFDateManager;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00CA4239F96C5DDBEEDBE3AE09011EE2 /* HFFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HFFileManager.m; sourceTree = "<group>"; };
+		056F1DB31F33DB265734F0B3FBFA45EA /* HFDateManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFDateManager.debug.xcconfig; sourceTree = "<group>"; };
 		06F73D0C0F5935558A5EB31195853464 /* Pods-HFFileManger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFFileManger_Example-Info.plist"; sourceTree = "<group>"; };
 		07532A5804AB0088A30BC164D1846265 /* HFFileManger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFFileManger-dummy.m"; sourceTree = "<group>"; };
+		07DA66F4827D7E220FD1AFB47B2466F8 /* HFDateManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HFDateManager-Info.plist"; sourceTree = "<group>"; };
 		25C5633333F21AA2BC54DF57B63A9176 /* Pods-HFFileManger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFFileManger_Example.modulemap"; sourceTree = "<group>"; };
+		304DF25F6E17A174350726897BB1865B /* HFDateManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFDateManager.modulemap; sourceTree = "<group>"; };
 		30E3B79EC43671560221D958E8CE6519 /* Pods-HFFileManger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HFFileManger_Example-umbrella.h"; sourceTree = "<group>"; };
 		314AA1D18AF8BA9053C895B9DB5613F2 /* Pods-HFFileManger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFFileManger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4418D1AAE7A41DFA690C959E101C4EF4 /* HFDateManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFDateManager-umbrella.h"; sourceTree = "<group>"; };
 		464A016025D3DECF79171CA382C66F48 /* Pods-HFFileManger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFFileManger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4DA13B8EA6A493DB9DA5CBB1A1387F81 /* HFFileManger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HFFileManger.modulemap; sourceTree = "<group>"; };
 		4EB761A26C4AB2D311199BC9A177C1A2 /* HFFileManger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFFileManger; path = HFFileManger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,21 +78,28 @@
 		578588DC158D4E52F78DADF224850851 /* HFFileManagerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HFFileManagerHeader.h; sourceTree = "<group>"; };
 		5893B93B8B26F2F448B08349D91F1495 /* Pods-HFFileManger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFFileManger_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59B83277A2276FBEF330B48AF55D62F7 /* Pods-HFFileManger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HFFileManger_Tests.modulemap"; sourceTree = "<group>"; };
+		5FD7E7F64286540773EC1AC9223DC614 /* HFDateManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HFDateManager; path = HFDateManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E6CBFB6C9F4AB11D38E7098247F336 /* HFDateManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HFDateManager-dummy.m"; sourceTree = "<group>"; };
 		6624981F6F11B997001E0211AD30845C /* HFFileManger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFFileManger.release.xcconfig; sourceTree = "<group>"; };
 		690DC3CB84D1BDFA400CAF44DFACA0EC /* Pods-HFFileManger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFFileManger_Example-dummy.m"; sourceTree = "<group>"; };
 		727EB77A7931CE15B6AB4BEFAA85407D /* HFFileManger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFFileManger-prefix.pch"; sourceTree = "<group>"; };
+		734BD6240973C4D2D8AC74D9445C64B3 /* HFDateManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFDateManager-prefix.pch"; sourceTree = "<group>"; };
 		78E52332DE8E344EF48CFE206FA8C35A /* Pods-HFFileManger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFFileManger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E199E34EA51F6C92478BF5C0BC50AE6 /* Pods-HFFileManger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFFileManger_Tests"; path = Pods_HFFileManger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE81DB1D7FDA4B665948C880C788DB2 /* Pods-HFFileManger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HFFileManger_Tests-dummy.m"; sourceTree = "<group>"; };
 		94036019D96A5ABDDF41B5E045217955 /* Pods-HFFileManger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HFFileManger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		941C33C066B4C50D1CA2C601DC20B193 /* HFDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HFDate.m; path = HFDateManager/Classes/HFDate.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EED31080F5C3FAFE8DAA96A561CC5D6 /* Pods-HFFileManger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFFileManger_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A5D12607F189B2184EC14815E34758CE /* Pods-HFFileManger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HFFileManger_Tests-Info.plist"; sourceTree = "<group>"; };
 		A6B02CE7372FEA836578CBAD92FD2F56 /* Pods-HFFileManger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HFFileManger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A6E43FBFFBBC7EFBF14F6A1CEF120B21 /* Pods-HFFileManger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HFFileManger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE16B84E576B3F90AF11DF0156AAE425 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AF635C66CFD0C7CEA2D92ACCAE89BFDF /* HFDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFDate.h; path = HFDateManager/Classes/HFDate.h; sourceTree = "<group>"; };
 		B6BABDF9D15E8E345E6F7C2A300D662F /* HFFileManger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFFileManger.debug.xcconfig; sourceTree = "<group>"; };
+		C97CC6BA1AB087645FA3D1D4D11FBC11 /* HFDateManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HFDateManager.release.xcconfig; sourceTree = "<group>"; };
 		CA0DF8E4E6953077BC1CCDEBC2168C9D /* HFFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HFFileManager.h; sourceTree = "<group>"; };
+		CAE2D961070D558FBCE143A88F04E17C /* HFDateManagerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HFDateManagerHeader.h; path = HFDateManager/Classes/HFDateManagerHeader.h; sourceTree = "<group>"; };
 		CFF9BAD2777D2E6E0693B08F15E171D2 /* Pods-HFFileManger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HFFileManger_Example"; path = Pods_HFFileManger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		D2D9BD1271CA2474D8FAF54951DEAB2B /* HFFileManger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HFFileManger-umbrella.h"; sourceTree = "<group>"; };
@@ -79,28 +110,36 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3DB51E58B5FC8C4AF8D1C23E01D917D6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A375405A970E2C0DC05B84A6105581DD /* Foundation.framework in Frameworks */,
-				0FFFF7D9A1FB1A7C74D98AE22A4C5028 /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		666AFA4B39864C888C53155263726BEC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6F2F76B29C2C6C64BD1DE0F230F0A8D1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		66D34FE2E09656FC7337F84EBB33EE60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				22F3A6BB629E257680BF6F99C9635C64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E6BD0577DCC5BB93BCC649BB5BB3E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E383C6BA7CC5A76D3F3CC78DD9AA7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2C2A35E358D40F1B2CE535F7482985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82904D53C85D51D0D2F345F320FBCDD3 /* Foundation.framework in Frameworks */,
+				E3A058F1769AC7A3D3448B71A47937B7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC35B993600836B1906FB89093B60A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C006088C860B5696783E12241BB01E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +152,17 @@
 				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28D3EDCAD5316E0702347797FAA7E2B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FD7E7F64286540773EC1AC9223DC614 /* HFDateManager */,
+				4EB761A26C4AB2D311199BC9A177C1A2 /* HFFileManger */,
+				CFF9BAD2777D2E6E0693B08F15E171D2 /* Pods-HFFileManger_Example */,
+				7E199E34EA51F6C92478BF5C0BC50AE6 /* Pods-HFFileManger_Tests */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		2C7A7996772BE28B2CA9470400327B81 /* Pods-HFFileManger_Tests */ = {
@@ -131,6 +181,14 @@
 			path = "Target Support Files/Pods-HFFileManger_Tests";
 			sourceTree = "<group>";
 		};
+		32E4D0D92C06982376332562E9B114F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97D23AA8B520B782A7F11A4EDFA9A5D5 /* HFDateManager */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		35B8CD89484446F9369F35881DF524B0 /* Pods-HFFileManger_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +204,21 @@
 			);
 			name = "Pods-HFFileManger_Example";
 			path = "Target Support Files/Pods-HFFileManger_Example";
+			sourceTree = "<group>";
+		};
+		4DCEC73FDD5EC2E9E5BB6594979235A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				304DF25F6E17A174350726897BB1865B /* HFDateManager.modulemap */,
+				65E6CBFB6C9F4AB11D38E7098247F336 /* HFDateManager-dummy.m */,
+				07DA66F4827D7E220FD1AFB47B2466F8 /* HFDateManager-Info.plist */,
+				734BD6240973C4D2D8AC74D9445C64B3 /* HFDateManager-prefix.pch */,
+				4418D1AAE7A41DFA690C959E101C4EF4 /* HFDateManager-umbrella.h */,
+				056F1DB31F33DB265734F0B3FBFA45EA /* HFDateManager.debug.xcconfig */,
+				C97CC6BA1AB087645FA3D1D4D11FBC11 /* HFDateManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HFDateManager";
 			sourceTree = "<group>";
 		};
 		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
@@ -201,6 +274,17 @@
 			path = HFFileManger/Classes/Header;
 			sourceTree = "<group>";
 		};
+		97D23AA8B520B782A7F11A4EDFA9A5D5 /* HFDateManager */ = {
+			isa = PBXGroup;
+			children = (
+				AF635C66CFD0C7CEA2D92ACCAE89BFDF /* HFDate.h */,
+				941C33C066B4C50D1CA2C601DC20B193 /* HFDate.m */,
+				CAE2D961070D558FBCE143A88F04E17C /* HFDateManagerHeader.h */,
+				4DCEC73FDD5EC2E9E5BB6594979235A1 /* Support Files */,
+			);
+			path = HFDateManager;
+			sourceTree = "<group>";
+		};
 		AA33769BDFF5337C09EA76722C64A505 /* HFFileManger */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,23 +306,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		CB19BA3A52B97BE500FFAC03B0BA1621 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				4EB761A26C4AB2D311199BC9A177C1A2 /* HFFileManger */,
-				CFF9BAD2777D2E6E0693B08F15E171D2 /* Pods-HFFileManger_Example */,
-				7E199E34EA51F6C92478BF5C0BC50AE6 /* Pods-HFFileManger_Tests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D3BA90132D88B4FD48EC11F86CABEFBF /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				CB19BA3A52B97BE500FFAC03B0BA1621 /* Products */,
+				32E4D0D92C06982376332562E9B114F2 /* Pods */,
+				28D3EDCAD5316E0702347797FAA7E2B7 /* Products */,
 				AB99638FBFBEC8E87D599E23FE296F8F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -254,21 +329,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8521EB6AAB9D41AC92906E9407CCBD5B /* Headers */ = {
+		C5C5A8BA32736CA5A561B9792AD2E5E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1786A53591F03CA91059BC3BDA5AA0E /* Pods-HFFileManger_Example-umbrella.h in Headers */,
+				FEB7FA31DE5DDB2F3F6B8C41E6903507 /* HFFileManager.h in Headers */,
+				BE897D633CB5829FC0F696D64667F79C /* HFFileManagerHeader.h in Headers */,
+				B0EBE98EC3B021E9730B37CBC25F3662 /* HFFileManger-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1ECBC311196A306AED92E1F1372E1B6 /* Headers */ = {
+		D14E358B3595AACA8336B9A674DC39FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB06D8EE9ED6986233996735B2EA78BF /* HFFileManager.h in Headers */,
-				2C272F10A857E004D00F26BD0ECE46B6 /* HFFileManagerHeader.h in Headers */,
-				32B8BE37553433139C9BF572137A1572 /* HFFileManger-umbrella.h in Headers */,
+				7680758780D584ACC275D31B14A5FFA3 /* Pods-HFFileManger_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,21 +355,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBA7809EE75DB63332E4690F76CD2F5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8746A825A3B613F673D45FF696F65A19 /* HFDate.h in Headers */,
+				D80F0D0F1A795529C537EA11743D9F4B /* HFDateManager-umbrella.h in Headers */,
+				4CEBF1C53A381473C71BC498F21143B3 /* HFDateManagerHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		36A37711B6DA436B3463C5666C95A1FF /* HFFileManger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 90F491D75EBCC922BB69A5011CD824BB /* Build configuration list for PBXNativeTarget "HFFileManger" */;
+			buildConfigurationList = ACCC79B5C0D61C1543959BA56A90BDC7 /* Build configuration list for PBXNativeTarget "HFFileManger" */;
 			buildPhases = (
-				A1ECBC311196A306AED92E1F1372E1B6 /* Headers */,
-				70D49541DAA547C4E7A45E003F733B07 /* Sources */,
-				3DB51E58B5FC8C4AF8D1C23E01D917D6 /* Frameworks */,
-				D30DCCBA5501C625C32B1761003FF5A9 /* Resources */,
+				C5C5A8BA32736CA5A561B9792AD2E5E6 /* Headers */,
+				0973536E7293AB532E856AC5FFF5192C /* Sources */,
+				9C2C2A35E358D40F1B2CE535F7482985 /* Frameworks */,
+				E3E09AFE7F6E0D35167BF2B29C626E83 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9017CF4B16C613BACF183283AA9459A7 /* PBXTargetDependency */,
 			);
 			name = HFFileManger;
 			productName = HFFileManger;
@@ -313,26 +399,45 @@
 			buildRules = (
 			);
 			dependencies = (
-				610E4946051E9A2A729530B77F16A667 /* PBXTargetDependency */,
+				11F8106121C33ABC0433E162F6A63DD2 /* PBXTargetDependency */,
 			);
 			name = "Pods-HFFileManger_Tests";
 			productName = Pods_HFFileManger_Tests;
 			productReference = 7E199E34EA51F6C92478BF5C0BC50AE6 /* Pods-HFFileManger_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
-		9F2490D7C334B10C0E903A1DB7C1921C /* Pods-HFFileManger_Example */ = {
+		9C02D9E42D6E760DA97D2DC151112601 /* HFDateManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9300FF03408CF609CD247C7DCA36C9EE /* Build configuration list for PBXNativeTarget "Pods-HFFileManger_Example" */;
+			buildConfigurationList = C5D120E6230B5432561036C037A93A83 /* Build configuration list for PBXNativeTarget "HFDateManager" */;
 			buildPhases = (
-				8521EB6AAB9D41AC92906E9407CCBD5B /* Headers */,
-				23244A191483BED4737AA8834D9B0A80 /* Sources */,
-				666AFA4B39864C888C53155263726BEC /* Frameworks */,
-				67232557B54339BB058BEF8927F74E5B /* Resources */,
+				FBA7809EE75DB63332E4690F76CD2F5D /* Headers */,
+				133C42AB22C7D70D3FFC025A00238C13 /* Sources */,
+				CDC35B993600836B1906FB89093B60A9 /* Frameworks */,
+				C15308EF5A1EF5FAB272E5DFA647366B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39991CBA084519720F865E5EBEBBB5B8 /* PBXTargetDependency */,
+			);
+			name = HFDateManager;
+			productName = HFDateManager;
+			productReference = 5FD7E7F64286540773EC1AC9223DC614 /* HFDateManager */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F2490D7C334B10C0E903A1DB7C1921C /* Pods-HFFileManger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E525169F8AB17299EE803C4834B45926 /* Build configuration list for PBXNativeTarget "Pods-HFFileManger_Example" */;
+			buildPhases = (
+				D14E358B3595AACA8336B9A674DC39FF /* Headers */,
+				5BA8ACD7FD2E7081548BDEF9C5953479 /* Sources */,
+				67E6BD0577DCC5BB93BCC649BB5BB3E2 /* Frameworks */,
+				DFB22F288B59684BB7C094C16140446A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32E5146672609A23D73093C5FB9A9F3 /* PBXTargetDependency */,
+				82F7121867041BE53A2D37C6674CA4C1 /* PBXTargetDependency */,
 			);
 			name = "Pods-HFFileManger_Example";
 			productName = Pods_HFFileManger_Example;
@@ -357,10 +462,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CB19BA3A52B97BE500FFAC03B0BA1621 /* Products */;
+			productRefGroup = 28D3EDCAD5316E0702347797FAA7E2B7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				9C02D9E42D6E760DA97D2DC151112601 /* HFDateManager */,
 				36A37711B6DA436B3463C5666C95A1FF /* HFFileManger */,
 				9F2490D7C334B10C0E903A1DB7C1921C /* Pods-HFFileManger_Example */,
 				4C047DC2EDEB8FF4CB8A9A2A68D42FB5 /* Pods-HFFileManger_Tests */,
@@ -369,13 +475,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		67232557B54339BB058BEF8927F74E5B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8FADD1638D8C09D13AF9CA43A8997F2A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -383,7 +482,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D30DCCBA5501C625C32B1761003FF5A9 /* Resources */ = {
+		C15308EF5A1EF5FAB272E5DFA647366B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB22F288B59684BB7C094C16140446A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3E09AFE7F6E0D35167BF2B29C626E83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -401,41 +514,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		23244A191483BED4737AA8834D9B0A80 /* Sources */ = {
+		0973536E7293AB532E856AC5FFF5192C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CAD1431C76B422783B2AEBCA266A3AD /* Pods-HFFileManger_Example-dummy.m in Sources */,
+				1DBA9AB631C819983A5E298FAD40193A /* HFFileManager.m in Sources */,
+				0710ED9BAFF58EC79F4E8F36461D61E2 /* HFFileManger-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70D49541DAA547C4E7A45E003F733B07 /* Sources */ = {
+		133C42AB22C7D70D3FFC025A00238C13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11200B8678D9658B2B66EE56E11176F6 /* HFFileManager.m in Sources */,
-				64FB0FDD190527CDAAF72E1270C6F345 /* HFFileManger-dummy.m in Sources */,
+				43420D663C8D303C8FE6D83B581350D9 /* HFDate.m in Sources */,
+				578FEC00D5E045704489E17A16770AA1 /* HFDateManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BA8ACD7FD2E7081548BDEF9C5953479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92D9035C53F3FE2BEAFD37989E17F58E /* Pods-HFFileManger_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		39991CBA084519720F865E5EBEBBB5B8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HFFileManger;
-			target = 36A37711B6DA436B3463C5666C95A1FF /* HFFileManger */;
-			targetProxy = AAF50B4104747A6DEC39367C0A0599D6 /* PBXContainerItemProxy */;
-		};
-		610E4946051E9A2A729530B77F16A667 /* PBXTargetDependency */ = {
+		11F8106121C33ABC0433E162F6A63DD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HFFileManger_Example";
 			target = 9F2490D7C334B10C0E903A1DB7C1921C /* Pods-HFFileManger_Example */;
-			targetProxy = 7CA3FDB02425E942CDF65300FEBEB76F /* PBXContainerItemProxy */;
+			targetProxy = 7F2634234D233E8BE607A00F97B46D6E /* PBXContainerItemProxy */;
+		};
+		82F7121867041BE53A2D37C6674CA4C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HFFileManger;
+			target = 36A37711B6DA436B3463C5666C95A1FF /* HFFileManger */;
+			targetProxy = 466542763F2B75B637406BD7D9CB8660 /* PBXContainerItemProxy */;
+		};
+		9017CF4B16C613BACF183283AA9459A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HFDateManager;
+			target = 9C02D9E42D6E760DA97D2DC151112601 /* HFDateManager */;
+			targetProxy = C0A273A227E32A5ABB50F82E06E853FB /* PBXContainerItemProxy */;
+		};
+		E32E5146672609A23D73093C5FB9A9F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HFDateManager;
+			target = 9C02D9E42D6E760DA97D2DC151112601 /* HFDateManager */;
+			targetProxy = AE296DBF39E228EDBDE6594D76350F33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1FF24FB3791FBCAED2F89EE4A3E726C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 056F1DB31F33DB265734F0B3FBFA45EA /* HFDateManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HFDateManager/HFDateManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFDateManager/HFDateManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFDateManager/HFDateManager.modulemap";
+				PRODUCT_MODULE_NAME = HFDateManager;
+				PRODUCT_NAME = HFDateManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		24D452F046D9FB4B43A85EBC4C1FB7A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A6E43FBFFBBC7EFBF14F6A1CEF120B21 /* Pods-HFFileManger_Tests.debug.xcconfig */;
@@ -503,38 +668,7 @@
 			};
 			name = Release;
 		};
-		4BBC9BD608AC1A604C71A46BC63DDCC2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6BABDF9D15E8E345E6F7C2A300D662F /* HFFileManger.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HFFileManger/HFFileManger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HFFileManger/HFFileManger-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HFFileManger/HFFileManger.modulemap";
-				PRODUCT_MODULE_NAME = HFFileManger;
-				PRODUCT_NAME = HFFileManger;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7C2332E96989EC2196598AED5BF7D92D /* Debug */ = {
+		7D6652206FF9FFE94C5BA9879FF96E7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5893B93B8B26F2F448B08349D91F1495 /* Pods-HFFileManger_Example.debug.xcconfig */;
 			buildSettings = {
@@ -628,7 +762,7 @@
 			};
 			name = Release;
 		};
-		8C9B652D3BFA8632923C2AF1F06F6BCF /* Release */ = {
+		AE467210AE4E69B8066DCB7CD6B5EFC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9EED31080F5C3FAFE8DAA96A561CC5D6 /* Pods-HFFileManger_Example.release.xcconfig */;
 			buildSettings = {
@@ -662,9 +796,9 @@
 			};
 			name = Release;
 		};
-		951116FFC991CE0536BF499C23CA922A /* Release */ = {
+		B0DDD75B34238994C7C9B11B6827C972 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6624981F6F11B997001E0211AD30845C /* HFFileManger.release.xcconfig */;
+			baseConfigurationReference = C97CC6BA1AB087645FA3D1D4D11FBC11 /* HFDateManager.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -675,14 +809,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HFFileManger/HFFileManger-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HFFileManger/HFFileManger-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/HFDateManager/HFDateManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFDateManager/HFDateManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HFFileManger/HFFileManger.modulemap";
-				PRODUCT_MODULE_NAME = HFFileManger;
-				PRODUCT_NAME = HFFileManger;
+				MODULEMAP_FILE = "Target Support Files/HFDateManager/HFDateManager.modulemap";
+				PRODUCT_MODULE_NAME = HFDateManager;
+				PRODUCT_NAME = HFDateManager;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -760,6 +894,69 @@
 			};
 			name = Debug;
 		};
+		D68E189B713BBA876E7655B42B73F222 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6BABDF9D15E8E345E6F7C2A300D662F /* HFFileManger.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HFFileManger/HFFileManger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFFileManger/HFFileManger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFFileManger/HFFileManger.modulemap";
+				PRODUCT_MODULE_NAME = HFFileManger;
+				PRODUCT_NAME = HFFileManger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF9408BA4BF66EA61A28262E6D01CCAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6624981F6F11B997001E0211AD30845C /* HFFileManger.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HFFileManger/HFFileManger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HFFileManger/HFFileManger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HFFileManger/HFFileManger.modulemap";
+				PRODUCT_MODULE_NAME = HFFileManger;
+				PRODUCT_NAME = HFFileManger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -772,20 +969,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		90F491D75EBCC922BB69A5011CD824BB /* Build configuration list for PBXNativeTarget "HFFileManger" */ = {
+		ACCC79B5C0D61C1543959BA56A90BDC7 /* Build configuration list for PBXNativeTarget "HFFileManger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4BBC9BD608AC1A604C71A46BC63DDCC2 /* Debug */,
-				951116FFC991CE0536BF499C23CA922A /* Release */,
+				D68E189B713BBA876E7655B42B73F222 /* Debug */,
+				DF9408BA4BF66EA61A28262E6D01CCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9300FF03408CF609CD247C7DCA36C9EE /* Build configuration list for PBXNativeTarget "Pods-HFFileManger_Example" */ = {
+		C5D120E6230B5432561036C037A93A83 /* Build configuration list for PBXNativeTarget "HFDateManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C2332E96989EC2196598AED5BF7D92D /* Debug */,
-				8C9B652D3BFA8632923C2AF1F06F6BCF /* Release */,
+				1FF24FB3791FBCAED2F89EE4A3E726C3 /* Debug */,
+				B0DDD75B34238994C7C9B11B6827C972 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -795,6 +992,15 @@
 			buildConfigurations = (
 				24D452F046D9FB4B43A85EBC4C1FB7A0 /* Debug */,
 				36DE8FCC3C9431B2DD7173BA77EB954F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E525169F8AB17299EE803C4834B45926 /* Build configuration list for PBXNativeTarget "Pods-HFFileManger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D6652206FF9FFE94C5BA9879FF96E7E /* Debug */,
+				AE467210AE4E69B8066DCB7CD6B5EFC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

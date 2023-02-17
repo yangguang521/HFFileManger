@@ -1,18 +1,26 @@
 PODS:
+  - HFDateManager (0.0.1)
   - HFFileManger (0.0.1):
+    - HFDateManager
     - HFFileManger/Source (= 0.0.1)
-  - HFFileManger/Source (0.0.1)
+  - HFFileManger/Source (0.0.1):
+    - HFDateManager
 
 DEPENDENCIES:
   - HFFileManger (from `../`)
+
+SPEC REPOS:
+  https://github.com/yangguang521/HFTotalPrivateSpec.git:
+    - HFDateManager
 
 EXTERNAL SOURCES:
   HFFileManger:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HFFileManger: 6c5e1c5b8fe1e902f33c31ef2b61ab231b32d3b0
+  HFDateManager: 85fa4e897a64a5cdbe2fa190be2a2b7caa4f8236
+  HFFileManger: 6a28fc8de8be22ce44d3b303c093f1bb0b3a6dec
 
-PODFILE CHECKSUM: 9bc9a13df0f6d8766aa922bc6428afa391917382
+PODFILE CHECKSUM: f5bc89feccf5cf44d82b5e387008668eeb9d2b1e
 
 COCOAPODS: 1.11.3

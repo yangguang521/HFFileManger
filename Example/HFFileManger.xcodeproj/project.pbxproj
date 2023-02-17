@@ -324,10 +324,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HFFileManger_Example/Pods-HFFileManger_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HFDateManager/HFDateManager.framework",
 				"${BUILT_PRODUCTS_DIR}/HFFileManger/HFFileManger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HFDateManager.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HFFileManger.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

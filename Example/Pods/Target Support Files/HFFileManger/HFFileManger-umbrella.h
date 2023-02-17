@@ -12,6 +12,7 @@
 
 #import "HFFileManagerHeader.h"
 #import "HFFileManager.h"
+#import "HFFileManager.h"
 
 FOUNDATION_EXPORT double HFFileMangerVersionNumber;
 FOUNDATION_EXPORT const unsigned char HFFileMangerVersionString[];

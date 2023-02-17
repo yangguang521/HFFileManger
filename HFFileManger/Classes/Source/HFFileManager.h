@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface HFFileManager : NSObject
 
 + (NSString *)getDocumentPath;
++ (NSString *)getCurrentFileName;
 
 @end
 

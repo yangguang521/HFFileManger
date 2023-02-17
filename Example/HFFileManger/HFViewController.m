@@ -20,6 +20,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
     NSString *documentPath = [HFFileManager getDocumentPath];
     NSLog(@"documentPath==%@", documentPath);
+    NSString *fileName = [HFFileManager getCurrentFileName];
+    NSLog(@"文件名==%@", fileName);
 }
 
 - (void)didReceiveMemoryWarning

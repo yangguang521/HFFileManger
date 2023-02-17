@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
 
 
   s.frameworks = 'UIKit', 'Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'HFDateManager'
   
   
   
