@@ -1,0 +1,18 @@
+PODS:
+  - HFFileManger (0.0.1):
+    - HFFileManger/Source (= 0.0.1)
+  - HFFileManger/Source (0.0.1)
+
+DEPENDENCIES:
+  - HFFileManger (from `../`)
+
+EXTERNAL SOURCES:
+  HFFileManger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFFileManger: 6c5e1c5b8fe1e902f33c31ef2b61ab231b32d3b0
+
+PODFILE CHECKSUM: 9bc9a13df0f6d8766aa922bc6428afa391917382
+
+COCOAPODS: 1.11.3

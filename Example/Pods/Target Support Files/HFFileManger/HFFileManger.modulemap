@@ -1,0 +1,6 @@
+framework module HFFileManger {
+  umbrella header "HFFileManger-umbrella.h"
+
+  export *
+  module * { export * }
+}
